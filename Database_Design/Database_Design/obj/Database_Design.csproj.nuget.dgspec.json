@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Gabriel\\Desktop\\Beans Website\\Database_Design\\Database_Design\\Database_Design.csproj": {}
+    "C:\\Users\\Gabriel\\Desktop\\Beans Website\\Beans-Website\\Database_Design\\Database_Design\\Database_Design.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Gabriel\\Desktop\\Beans Website\\Database_Design\\Database_Design\\Database_Design.csproj": {
+    "C:\\Users\\Gabriel\\Desktop\\Beans Website\\Beans-Website\\Database_Design\\Database_Design\\Database_Design.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gabriel\\Desktop\\Beans Website\\Database_Design\\Database_Design\\Database_Design.csproj",
+        "projectUniqueName": "C:\\Users\\Gabriel\\Desktop\\Beans Website\\Beans-Website\\Database_Design\\Database_Design\\Database_Design.csproj",
         "projectName": "Database_Design",
-        "projectPath": "C:\\Users\\Gabriel\\Desktop\\Beans Website\\Database_Design\\Database_Design\\Database_Design.csproj",
+        "projectPath": "C:\\Users\\Gabriel\\Desktop\\Beans Website\\Beans-Website\\Database_Design\\Database_Design\\Database_Design.csproj",
         "packagesPath": "C:\\Users\\Gabriel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gabriel\\Desktop\\Beans Website\\Database_Design\\Database_Design\\obj\\",
+        "outputPath": "C:\\Users\\Gabriel\\Desktop\\Beans Website\\Beans-Website\\Database_Design\\Database_Design\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Gabriel\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -55,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
