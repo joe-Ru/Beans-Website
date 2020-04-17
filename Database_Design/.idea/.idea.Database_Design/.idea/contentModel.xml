@@ -10,12 +10,16 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="Controllers" t="Include">
           <e p="HomeController.cs" t="Include" />
+          <e p="Support.cs" t="Include" />
         </e>
         <e p="Database_Design.csproj" t="IncludeRecursive" />
         <e p="Models" t="Include">
           <e p="ErrorViewModel.cs" t="Include" />
+          <e p="MessageCreator.cs" t="Include" />
+          <e p="ReportContent.cs" t="Include" />
           <e p="TechSupportModel.cs" t="Include" />
         </e>
+        <e p="Notes.txt" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.1" t="Include">
@@ -34,7 +38,10 @@
           <e p="_ViewStart.cshtml" t="Include" />
           <e p="Home" t="Include">
             <e p="Index.cshtml" t="Include" />
+            <e p="MessageCreator.cshtml" t="Include" />
             <e p="Privacy.cshtml" t="Include" />
+            <e p="ReportContent.cshtml" t="Include" />
+            <e p="Support.cshtml" t="Include" />
             <e p="TechSupport.cshtml" t="Include" />
           </e>
           <e p="Shared" t="Include">

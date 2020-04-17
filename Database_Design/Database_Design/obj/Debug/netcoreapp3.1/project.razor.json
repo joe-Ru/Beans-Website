@@ -20546,6 +20546,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\Gabriel\\Desktop\\Beans Website\\Beans-Website\\Database_Design\\Database_Design\\Views\\Home\\TechSupport.cshtml",
+      "TargetPath": "Views\\Home\\TechSupport.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\Gabriel\\Desktop\\Beans Website\\Beans-Website\\Database_Design\\Database_Design\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"

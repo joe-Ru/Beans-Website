@@ -36,3 +36,6 @@ C:\Users\Gabriel\Desktop\Beans Website\Beans-Website\Database_Design\Database_De
 C:\Users\Gabriel\Desktop\Beans Website\Beans-Website\Database_Design\Database_Design\obj\Debug\netcoreapp3.1\Database_Design.genruntimeconfig.cache
 C:\Users\Gabriel\Desktop\Beans Website\Beans-Website\Database_Design\Database_Design\obj\Debug\netcoreapp3.1\Database_Design.csproj.CopyComplete
 C:\Users\Gabriel\Desktop\Beans Website\Beans-Website\Database_Design\Database_Design\obj\Debug\netcoreapp3.1\Razor\Views\Home\TechSupport.cshtml.g.cs
+C:\Users\Gabriel\Desktop\Beans Website\Beans-Website\Database_Design\Database_Design\obj\Debug\netcoreapp3.1\Razor\Views\Home\Support.cshtml.g.cs
+C:\Users\Gabriel\Desktop\Beans Website\Beans-Website\Database_Design\Database_Design\obj\Debug\netcoreapp3.1\Razor\Views\Home\MessageCreator.cshtml.g.cs
+C:\Users\Gabriel\Desktop\Beans Website\Beans-Website\Database_Design\Database_Design\obj\Debug\netcoreapp3.1\Razor\Views\Home\ReportContent.cshtml.g.cs
