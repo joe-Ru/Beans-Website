@@ -27,6 +27,22 @@ namespace Database_Design.Controllers
         {
             return View();
         }
+        public IActionResult Support()
+        {
+            return View();
+        }
+        public IActionResult TechSupport()
+        {
+            return View();
+        }
+        public IActionResult ReportContent()
+        {
+            return View();
+        }
+        public IActionResult MessageCreator()
+        {
+            return View();
+        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
