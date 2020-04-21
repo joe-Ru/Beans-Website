@@ -18,12 +18,37 @@ namespace Database_Design.Controllers
             _logger = logger;
         }
 
-        public IActionResult Index()
+        public IActionResult MainPage()
         {
             return View();
         }
 
         public IActionResult Privacy()
+        {
+            return View();
+        }
+        public IActionResult Support()
+        {
+            return View();
+        }
+        public IActionResult TechSupport()
+        {
+            return View();
+        }
+        public IActionResult ReportContent()
+        {
+            return View();
+        }
+        public IActionResult MessageCreator()
+        {
+            return View();
+        }
+
+        public IActionResult LoginPage()
+        {
+            return View();
+        }
+        public IActionResult ProfilePage()
         {
             return View();
         }
