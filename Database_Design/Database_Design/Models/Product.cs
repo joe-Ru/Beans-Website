@@ -7,12 +7,14 @@ namespace Database_Design.Models
 {
     public class Product
     {
-        public int ProductID { get; set; }
-        public string Name { get; set; }
+        public string ProductId { get; set; }
+        public string ProductName { get; set; }
+        public double ProductPrice { get; set; }
+        public string ProductCreator { get; set; }
         public string Description { get; set; }
-        public decimal Price { get; set; }
-        public string Category { get; set; }
-        public string Reviews { get; set; }
-        public byte Image { get; set; }
+        public  string ImageUrl { get; set; }
+        public bool IsPreferred { get; set; }
+        public int CategoryId { get; set; }
+        public Category category { get; set; }
     }
 }

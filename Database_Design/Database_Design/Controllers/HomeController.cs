@@ -23,7 +23,6 @@ namespace Database_Design.Controllers
             return View();
         }
 
-       
         public IActionResult Privacy()
         {
             return View();
@@ -44,19 +43,6 @@ namespace Database_Design.Controllers
         {
             return View();
         }
-
-       public IActionResult Product()
-        {
-            return View();
-        }
-
-        private IProductRepository repository;
-        public HomeController(IProductRepository repo)
-        {
-            repository = repo;
-        }
-        public ViewResult List() => View(repository.Products);
-
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

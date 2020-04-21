@@ -10,6 +10,9 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Database_Design.Models;
+using Database_Design.Interfaces;
+using Database_Design.Models.Repositories;
+
 
 namespace Database_Design
 {
@@ -25,8 +28,9 @@ namespace Database_Design
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddTransient<IProductRepository, TempProductStore>();
             services.AddControllersWithViews();
+            services.AddMvc(options => options.EnableEndpointRouting = false);
+            services.AddTransient<IProductRepository, FakeProductRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -42,6 +46,7 @@ namespace Database_Design
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
+            app.UseStatusCodePages();
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 
@@ -55,8 +60,6 @@ namespace Database_Design
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
             });
-
-            
         }
     }
 }
