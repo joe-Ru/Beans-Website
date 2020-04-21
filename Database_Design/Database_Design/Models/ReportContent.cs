@@ -10,6 +10,6 @@ namespace Database_Design.Models
         public string Email { get; set; }
         public string Statement { get; set; }
         public string ArtistProduct { get; set; }
-        public string ArtistLink { get; set; }
+        public string ArtistProfile { get; set; }
     }
 }

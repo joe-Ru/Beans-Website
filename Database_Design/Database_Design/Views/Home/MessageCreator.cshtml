@@ -2,6 +2,9 @@
 <h4 style="color:purple">
 </h4>
 
+@{ //TODO: Look into the functionality of sending a message to users.
+}
+
 <h3><b>Please input your information below, along with a statement of the tech problem.</b></h3>
      
 @using (Html.BeginForm("Form2", "Home", FormMethod.Post))
@@ -17,16 +20,12 @@
             <td>@Html.TextBoxFor(m => m.LastName)</td>
         </tr>
         <tr>
-            <td>Phone Number: </td>
-            <td>@Html.TextBoxFor(m => m.PhoneNumber)</td>
-        </tr>
-        <tr>
-            <td>Email: </td>
-            <td>@Html.TextBoxFor(m => m.Email)</td>
+            <td>Statement: </td>
+            <td>@Html.TextAreaFor(m => m.Statement)</td>
         </tr>
         <tr>
             <td>Statement: </td>
-            <td>@Html.TextAreaFor(m => m.Statement)</td>
+            <td>@Html.TextAreaFor(m => m.ArtistProfile)</td>
         </tr>
         <tr>
             <td colspan="2"><input type="submit" value="Submit Form" /></td>
