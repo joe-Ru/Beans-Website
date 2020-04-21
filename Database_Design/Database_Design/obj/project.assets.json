@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\Gabriel\\.nuget\\packages\\": {}
+    "C:\\Users\\tcoll\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Gabriel\\Desktop\\Beans Website\\Beans-Website\\Database_Design\\Database_Design\\Database_Design.csproj",
+      "projectUniqueName": "C:\\Users\\tcoll\\Documents\\GitHub\\Beans-Website\\Database_Design\\Database_Design\\Database_Design.csproj",
       "projectName": "Database_Design",
-      "projectPath": "C:\\Users\\Gabriel\\Desktop\\Beans Website\\Beans-Website\\Database_Design\\Database_Design\\Database_Design.csproj",
-      "packagesPath": "C:\\Users\\Gabriel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Gabriel\\Desktop\\Beans Website\\Beans-Website\\Database_Design\\Database_Design\\obj\\",
+      "projectPath": "C:\\Users\\tcoll\\Documents\\GitHub\\Beans-Website\\Database_Design\\Database_Design\\Database_Design.csproj",
+      "packagesPath": "C:\\Users\\tcoll\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\tcoll\\Documents\\GitHub\\Beans-Website\\Database_Design\\Database_Design\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Gabriel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\tcoll\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
