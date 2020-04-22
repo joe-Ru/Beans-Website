@@ -43,7 +43,14 @@ namespace Database_Design.Controllers
         {
             return View();
         }
-
+        public IActionResult UploadFilePage()
+        {
+            return View();
+        }
+        public IActionResult UPP()
+        {
+            return View();
+        }
         public IActionResult LoginPage()
         {
             return View();

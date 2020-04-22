@@ -2,18 +2,14 @@
 <h4 style="color:purple">
 </h4>
 
-@model Database_Design.Models.ReportContent
-<h4 style="color:purple">
-</h4>
-
-<h3><b>Please input your information below, along with a statement of the tech problem.</b></h3>
+<h3><b>Please upload your file.</b></h3>
 
 @using (Html.BeginForm("Form2", "Home", FormMethod.Post))
 {
     <table>
         <tr>
             <td>Upload Image:</td>
-            <td>@Html.TextBoxFor(m => m.FirstName)</td>
+            <td>@Html.TextBoxFor(m => m.yes)</td>
         </tr>
         <tr>
             <td>Image Description: </td>

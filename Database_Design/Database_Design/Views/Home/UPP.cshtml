@@ -1,3 +1,31 @@
 @model Database_Design.Models.UPP
 <h4 style="color:purple">
 </h4>
+
+<h3><b>Please update your file.</b></h3>
+
+@using (Html.BeginForm("Form2", "Home", FormMethod.Post))
+{
+    <table>
+        <tr>
+            <td>Upload Image:</td>
+            <td>@Html.TextBoxFor(m => m.yes)</td>
+        </tr>
+        <tr>
+            <td>Image Description: </td>
+            <td>@Html.TextBoxFor(m => m.ImageDescription)</td>
+        </tr>
+        <tr>
+            <td>Set A Price: </td>
+            <td>@Html.TextBoxFor(m => m.Price)</td>
+        </tr>
+        <tr>
+            <td>Product Name: </td>
+            <td>@Html.TextBoxFor(m => m.ProductName)</td>
+        </tr>
+        <tr>
+            <td colspan="2"><input type="submit" value="Upload File" /></td>
+        </tr>
+        <!-- What should this button do? Upload to Database? -->
+    </table>
+}
