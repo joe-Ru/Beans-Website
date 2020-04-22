@@ -2,18 +2,8 @@
 
 @foreach (var product in Model.Products)
 {
-    <div class="d-flex justify-content-center">
-        <img src="@Url.Content(@product.ImageUrl)" alt="" class="img-thumbnail" />
-    </div>
-    <div class="d-flex justify-content-center">
-        <h4>@product.ProductName</h4>
-    </div>
-    <div class="d-flex justify-content-center">
-        <p>@product.Description</p>
-    </div>
-    <div class="d-flex justify-content-center">
-        <h4>Price: @product.ProductPrice.ToString("c")</h4>
-    </div>
+    @Html.Partial("ProductSummary", product)
 }
-<div page-model="@Model.PagingInfo" page-action="List" page-classes-enabled="true" page-class="btn" page-class-normal="btn-default" page-class-selected="btn-primary" class="btn-group float-right"></div>
+<div page-model="@Model.PagingInfo" page-action="List" page-classes-enabled="true" page-class="btn" page-class-normal="btn-default" page-class-selected="btn-primary" page-url-category="@Model.CurrentCategory" class="btn-group float-right"></div>
+
 

@@ -1,0 +1,13 @@
+﻿@model Product
+<div class="d-flex justify-content-center">
+    <img src="@Url.Content(@Model.ImageUrl)" alt="" class="img-thumbnail" />
+</div>
+<div class="d-flex justify-content-center">
+    <h4>@Model.ProductName</h4>
+</div>
+<div class="d-flex justify-content-center">
+    <p>@Model.Description</p>
+</div>
+<div class="d-flex justify-content-center">
+    <h4>Price: @Model.ProductPrice.ToString("c")</h4>
+</div> 

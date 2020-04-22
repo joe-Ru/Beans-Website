@@ -274,3 +274,4 @@ C:\Users\tcoll\Documents\GitHub\Beans-Website\Database_Design\Database_Design\ob
 C:\Users\tcoll\Documents\GitHub\Beans-Website\Database_Design\Database_Design\obj\Debug\netcoreapp3.1\Database_Design.pdb
 C:\Users\tcoll\Documents\GitHub\Beans-Website\Database_Design\Database_Design\obj\Debug\netcoreapp3.1\Database_Design.genruntimeconfig.cache
 C:\Users\tcoll\Documents\GitHub\Beans-Website\Database_Design\Database_Design\bin\Debug\netcoreapp3.1\libman.json
+C:\Users\tcoll\Documents\GitHub\Beans-Website\Database_Design\Database_Design\obj\Debug\netcoreapp3.1\Razor\Views\Shared\ProductSummary.cshtml.g.cs
