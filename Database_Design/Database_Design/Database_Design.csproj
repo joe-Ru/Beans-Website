@@ -11,18 +11,38 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.VisualStudio.Web.BrowserLink" Version="2.2.0" />
   
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.2"/>
-  <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.2"/>
-  <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.2"/>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.2" />
+  <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.2" />
+  <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.2" />
   <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.2">
     <PrivateAssets>all</PrivateAssets>
     <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="3.1.2" />
   </ItemGroup>
 
   <ItemGroup>
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration" Version="2.0.4" />
     <DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.Dotnet" Version="2.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Images\alchemist.JPG" />
+    <None Include="wwwroot\Images\Animal Combiner.JPG" />
+    <None Include="wwwroot\Images\big wizard.JPG" />
+    <None Include="wwwroot\Images\blue dice.jpg" />
+    <None Include="wwwroot\Images\Cocky Dwarf.JPG" />
+    <None Include="wwwroot\Images\half-elf.JPG" />
+    <None Include="wwwroot\Images\horse and gnome.JPG" />
+    <None Include="wwwroot\Images\images %281%29.jpg" />
+    <None Include="wwwroot\Images\images %282%29.jpg" />
+    <None Include="wwwroot\Images\images %283%29.jpg" />
+    <None Include="wwwroot\Images\mindFlayer.JPG" />
+    <None Include="wwwroot\Images\pirate Mermaid.JPG" />
+    <None Include="wwwroot\Images\robot archer.JPG" />
+    <None Include="wwwroot\Images\rug.JPG" />
+    <None Include="wwwroot\Images\troll.JPG" />
+    <None Include="wwwroot\Images\Zombie.JPG" />
   </ItemGroup>
 
 </Project>
