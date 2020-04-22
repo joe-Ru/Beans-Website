@@ -4,8 +4,6 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Database_Design.Models;
-
-using Database_Design.Models.Repositories;
 using Database_Design.Models.ViewModels;
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -14,7 +12,7 @@ namespace Database_Design.Controllers
     public class ProductController : Controller
     {
         private IProductRepository repository;
-        public int PageSize = 3;
+        public int PageSize = 50;
         public ProductController(IProductRepository repo)
         {
             repository = repo;

@@ -1,17 +1,19 @@
-﻿@using Database_Design.Models.ViewModels
-@model ProductListViewModel
-<div>
-    <h2>All Products</h2>
-</div>
-@foreach(var product in Model.Products)
-    {
-        <div>
-            <img src="@Url.Content(@product.ImageUrl)" alt=""/>
-            <p>@product.ImageUrl</p>
-            <h4>@product.ProductName</h4>
-            @product.Description
-            <h4>Price: @product.ProductPrice.ToString("c")</h4>
-        </div>
-    }
+﻿@model ProductListViewModel
+
+@foreach (var product in Model.Products)
+{
+    <div class="d-flex justify-content-center">
+        <img src="@Url.Content(@product.ImageUrl)" alt="" class="img-thumbnail" />
+    </div>
+    <div class="d-flex justify-content-center">
+        <h4>@product.ProductName</h4>
+    </div>
+    <div class="d-flex justify-content-center">
+        <p>@product.Description</p>
+    </div>
+    <div class="d-flex justify-content-center">
+        <h4>Price: @product.ProductPrice.ToString("c")</h4>
+    </div>
+}
 <div page-model="@Model.PagingInfo" page-action="List"></div>
 
