@@ -20556,6 +20556,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\DIANA LY\\source\\repos\\Beans-Website\\Database_Design\\Database_Design\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\DIANA LY\\source\\repos\\Beans-Website\\Database_Design\\Database_Design\\Views\\Home\\MessageCreator.cshtml",
       "TargetPath": "Views\\Home\\MessageCreator.cshtml",
       "FileKind": "mvc"
