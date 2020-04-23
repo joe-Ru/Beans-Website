@@ -2,16 +2,19 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AutoMapper;
+using EmailService;
+using Database_Design.Factory;
+using Database_Design.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Hosting;
-using Database_Design.Models;
-using Microsoft.Extensions.Configuration;
-using Microsoft.EntityFrameworkCore;
 
 namespace Database_Design
 {
@@ -34,10 +37,34 @@ namespace Database_Design
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddDbContext<ApplicationContext>(opts =>
+                opts.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+
+            services.AddIdentity<User, IdentityRole>(opt =>
+            {
+                opt.Password.RequiredLength = 7;
+                opt.Password.RequireDigit = false;
+                opt.Password.RequireUppercase = false;
+
+                opt.User.RequireUniqueEmail = true;
+            })
+             .AddEntityFrameworkStores<ApplicationContext>()
+             .AddDefaultTokenProviders();
+
+            services.Configure<DataProtectionTokenProviderOptions>(opt =>
+               opt.TokenLifespan = TimeSpan.FromHours(2));
+
+            services.AddScoped<IUserClaimsPrincipalFactory<User>, CustomClaimsFactory>();
+
+            services.AddAutoMapper(typeof(Startup));
+
+            var emailConfig = Configuration
+                .GetSection("EmailConfiguration")
+                .Get<EmailConfiguration>();
+            services.AddSingleton(emailConfig);
+            services.AddScoped<IEmailSender, EmailSender>();
+
             services.AddControllersWithViews();
-            services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
-            services.AddTransient<IUserRepository, EFUserRepository>();
-            services.AddMvc(options => options.EnableEndpointRouting = false);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -55,9 +82,10 @@ namespace Database_Design
             }
             app.UseHttpsRedirection();
             app.UseStaticFiles();
-            app.UseStatusCodePages();
+
             app.UseRouting();
-            app.UseMvcWithDefaultRoute();
+
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
@@ -65,11 +93,6 @@ namespace Database_Design
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
-            });
-            app.UseMvc(routes => {
-                routes.MapRoute(
-                name: "default",
-                template: "{controller=Product}/{action=List}/{id?}");
             });
         }
     }
