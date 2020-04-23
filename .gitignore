@@ -1,2 +1,5 @@
+.gitignore
 Database_Design/.idea
 Database_Design/.vs
+/Database_Design.assets.cache
+/wwwroot
