@@ -13,6 +13,8 @@ namespace Database_Design.Components
 
         public NavigationMenuViewComponent(IProductRepository repo) { repository = repo; }
 
-        public IViewComponentResult Invoke() { return View(repository.Products.Select(x => x.CategoryId).Distinct().OrderBy(x => x)); }
+        public IViewComponentResult Invoke() {
+            ViewBag.SelectedCategory = RouteData?.Values["category"];
+            return View(repository.Products.Select(x => x.CategoryId).Distinct().OrderBy(x => x)); }
     }
 }

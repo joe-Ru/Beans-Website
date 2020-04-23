@@ -7,7 +7,7 @@ namespace Database_Design.Models
 {
     public class Product
     {
-        public string ProductId { get; set; }
+        public int ProductId { get; set; }
         public string ProductName { get; set; }
         public decimal ProductPrice { get; set; }
         public string ProductCreator { get; set; }
