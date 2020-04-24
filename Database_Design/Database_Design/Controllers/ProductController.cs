@@ -17,14 +17,28 @@ namespace Database_Design.Controllers
         {
             repository = repo;
         }
-        public ViewResult List(string category, int page = 1) => View(new ProductListViewModel { Products = repository.Products.Where(p => category == null || p.CategoryId == category).OrderBy(p => p.ProductId).Skip((page - 1) * PageSize).Take(PageSize), PagingInfo = new PagingInfo { CurrentPage = page, ItemsPerPage = PageSize,
-            TotalItems = category == null ? repository.Products.Count() : repository.Products.Where(e => e.CategoryId == category).Count() }, CurrentCategory = category });
-
-        public ViewResult Details(int productId)
-        {
-            Product product = repository.Products.FirstOrDefault(p => p.ProductId == productId);
-            return View(product);
-
-        }
+        public ViewResult List(string category, int page = 1) 
+            => View(new ProductListViewModel 
+            { 
+                Products = repository.Products
+                            .Where(p => category == null || p.CategoryId == category)
+                            .OrderBy(p => p.ProductId)
+                            .Skip((page - 1) * PageSize)
+                            .Take(PageSize), 
+                PagingInfo = new PagingInfo 
+                { 
+                    CurrentPage = page, 
+                    ItemsPerPage = PageSize, 
+                    TotalItems = category == null ? 
+                                    repository.Products.Count() : repository.Products.Where(e => e.CategoryId == category).Count() 
+                }
+                , CurrentCategory = category 
+            });
+        
+       // public ViewResult ProductDetails(int productID)
+        //{
+          //  var data = 
+            //return View(data);
+        //}
     }
 }
