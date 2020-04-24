@@ -1,5 +1,0 @@
-﻿use asp-for dropdownlist is old mvc
-
-You could read the dropdown value from the backend, sure. 
-There’s a proper way to configure your <select> within the form to POST to your backend. 
-Then in your controller you can grab that value and use it to decide what to render

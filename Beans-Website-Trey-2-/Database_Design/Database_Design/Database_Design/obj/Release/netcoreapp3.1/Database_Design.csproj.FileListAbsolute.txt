@@ -1,7 +1,0 @@
-C:\Users\n01397096\Desktop\Beans-Website\Database_Design\Database_Design\obj\Release\netcoreapp3.1\Database_Design.csprojAssemblyReference.cache
-C:\Users\n01397096\Desktop\Beans-Website\Database_Design\Database_Design\obj\Release\netcoreapp3.1\Database_Design.csproj.CoreCompileInputs.cache
-C:\Users\n01397096\Desktop\Beans-Website\Database_Design\Database_Design\obj\Release\netcoreapp3.1\Database_Design.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\n01397096\Desktop\Beans-Website\Database_Design\Database_Design\obj\Release\netcoreapp3.1\Database_Design.RazorAssemblyInfo.cache
-C:\Users\n01397096\Desktop\Beans-Website\Database_Design\Database_Design\obj\Release\netcoreapp3.1\Database_Design.RazorAssemblyInfo.cs
-C:\Users\n01397096\Desktop\Beans-Website\Database_Design\Database_Design\obj\Release\netcoreapp3.1\Database_Design.AssemblyInfoInputs.cache
-C:\Users\n01397096\Desktop\Beans-Website\Database_Design\Database_Design\obj\Release\netcoreapp3.1\Database_Design.AssemblyInfo.cs
