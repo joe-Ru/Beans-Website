@@ -5549,19 +5549,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\tcoll\\.nuget\\packages\\": {}
+    "C:\\Users\\n01397096\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tcoll\\Downloads\\Beans-Website-trey (4)\\Beans-Website-trey\\Database_Design\\Database_Design\\Database_Design.csproj",
+      "projectUniqueName": "C:\\Users\\n01397096\\Desktop\\Beans-Website\\Database_Design\\Database_Design\\Database_Design.csproj",
       "projectName": "Database_Design",
-      "projectPath": "C:\\Users\\tcoll\\Downloads\\Beans-Website-trey (4)\\Beans-Website-trey\\Database_Design\\Database_Design\\Database_Design.csproj",
-      "packagesPath": "C:\\Users\\tcoll\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tcoll\\Downloads\\Beans-Website-trey (4)\\Beans-Website-trey\\Database_Design\\Database_Design\\obj\\",
+      "projectPath": "C:\\Users\\n01397096\\Desktop\\Beans-Website\\Database_Design\\Database_Design\\Database_Design.csproj",
+      "packagesPath": "C:\\Users\\n01397096\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\n01397096\\Desktop\\Beans-Website\\Database_Design\\Database_Design\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\tcoll\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\n01397096\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

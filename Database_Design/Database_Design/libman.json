@@ -2,7 +2,7 @@
   "version": "1.0",
   "defaultProvider": "cdnjs",
     "libraries": [
-        {
+       /* {
             "library": "jquery@3.5.0",
             "files": [
 
@@ -11,7 +11,7 @@
                 "jquery.min.map"
             ],
             "destination": "wwwroot/lib/jquery/"
-        },
+        }, */
             { "provider": "unpkg",
                 "library": "bootstrap@4.4.1",
                 "destination":  "wwwroot/lib/bootstrap/"
