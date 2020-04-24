@@ -22,6 +22,12 @@ namespace Database_Design.Controllers
         {
             return View();
         }
+        
+        [HttpGet]
+        public IActionResult UploadFilePage()
+        {
+            return View();
+        }
 
         public IActionResult Privacy()
         {

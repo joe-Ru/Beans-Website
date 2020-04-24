@@ -23,6 +23,9 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="MainPage">Home</a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="UploadFilePage">Upload File</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
                         </li>
                         <li class="nav-item">
@@ -33,28 +36,28 @@
                         </li>
                     </ul>
                     <!-- John please have a look here, this is to toggle the register/login/logout tab
-            <ul class="navbar-nav ml-auto">
-                *add an "at" sign here*if (signInManager.IsSignedIn(User))
-                {
-                    <li class="nav-item">
-                        <form method="post" asp-action="logout" asp-controller="account">
-                            <button type="submit" class="nav-link btn btn-link py-0" style="width:auto">
-                                Logout *add an "at" sign here*User.Identity.Name
-                            </button>
-                        </form>
-                    </li>
-                }
-                else
-                {
-                    <li class="nav-item">
-                        <a asp-action="register" asp-controller="account" class="nav-link">Register</a>
-                    </li>
-                    <li class="nav-item">
-                        <a asp-action="login" asp-controller="account" class="nav-link">Login</a>
-                    </li>
-                }
-            </ul>
-                -->
+                    <ul class="navbar-nav ml-auto">
+                        *add an "at" sign here*if (signInManager.IsSignedIn(User))
+                        {
+                            <li class="nav-item">
+                                <form method="post" asp-action="logout" asp-controller="account">
+                                    <button type="submit" class="nav-link btn btn-link py-0" style="width:auto">
+                                        Logout *add an "at" sign here*User.Identity.Name
+                                    </button>
+                                </form>
+                            </li>
+                        }
+                        else
+                        {
+                            <li class="nav-item">
+                                <a asp-action="register" asp-controller="account" class="nav-link">Register</a>
+                            </li>
+                            <li class="nav-item">
+                                <a asp-action="login" asp-controller="account" class="nav-link">Login</a>
+                            </li>
+                        }
+                    </ul>
+                        -->
                 </div>
             </div>
 
@@ -81,5 +84,6 @@
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     @RenderSection("Scripts", required: false)
+
 </body>
 </html>
