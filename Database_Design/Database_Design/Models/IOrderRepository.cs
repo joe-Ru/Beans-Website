@@ -7,6 +7,7 @@ namespace Database_Design.Models
 {
     public interface IOrderRepository
     {
-        IEnumerable<Order> Orders { get; } void SaveOrder(Order order); 
+        IEnumerable<Order> Orders { get; } 
+        void SaveOrder(Order order); 
     }
 }
