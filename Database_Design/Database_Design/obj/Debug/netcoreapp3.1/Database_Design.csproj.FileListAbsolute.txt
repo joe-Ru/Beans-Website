@@ -542,3 +542,4 @@ C:\Users\n01397096\Documents\GitHub\Beans-Website\Database_Design\Database_Desig
 C:\Users\n01397096\Documents\GitHub\Beans-Website\Database_Design\Database_Design\obj\Debug\netcoreapp3.1\Database_Design.genruntimeconfig.cache
 C:\Users\n01397096\Documents\GitHub\Beans-Website\Database_Design\Database_Design\obj\Debug\netcoreapp3.1\Razor\Views\Product\Details.cshtml.g.cs
 C:\Users\n01397096\Documents\GitHub\Beans-Website\Database_Design\Database_Design\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\CartSummary\Default.cshtml.g.cs
+C:\Users\n01397096\Documents\GitHub\Beans-Website\Database_Design\Database_Design\obj\Debug\netcoreapp3.1\Razor\Views\Order\Checkout.cshtml.g.cs
