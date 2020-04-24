@@ -19,11 +19,12 @@ namespace Database_Design.Controllers
         }
         public ViewResult List(string category, int page = 1) => View(new ProductListViewModel { Products = repository.Products.Where(p => category == null || p.CategoryId == category).OrderBy(p => p.ProductId).Skip((page - 1) * PageSize).Take(PageSize), PagingInfo = new PagingInfo { CurrentPage = page, ItemsPerPage = PageSize,
             TotalItems = category == null ? repository.Products.Count() : repository.Products.Where(e => e.CategoryId == category).Count() }, CurrentCategory = category });
-        
-       // public ViewResult ProductDetails(int productID)
-        //{
-          //  var data = 
-            //return View(data);
-        //}
+
+        public ViewResult Details(int productID)
+        {
+            var data = repository.GetProductById(productID);
+            return View(data);
+
+        }
     }
 }

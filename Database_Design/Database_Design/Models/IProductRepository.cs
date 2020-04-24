@@ -5,6 +5,10 @@ using System.Threading.Tasks;
 
 namespace Database_Design.Models {
     public interface IProductRepository 
-    { IEnumerable<Product> Products { get; } 
+    { IEnumerable<Product> Products { get; }
+        public Product GetProductById(int id)
+        {
+            return Products.Where(x => x.ProductId == id).FirstOrDefault();
+        }
     } 
 }
