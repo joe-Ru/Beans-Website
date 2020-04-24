@@ -22,9 +22,7 @@ namespace Database_Design.Controllers
         {
             return View();
         }
-        
-        [HttpGet]
-        public IActionResult UploadFilePage()
+        public IActionResult UploadFile()
         {
             return View();
         }
