@@ -20,11 +20,13 @@ namespace Database_Design.Migrations
 
             modelBuilder.Entity("Database_Design.Models.Product", b =>
                 {
-                    b.Property<string>("ProductId")
-                        .HasColumnType("nvarchar(450)");
+                    b.Property<int>("ProductId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<int>("CategoryId")
-                        .HasColumnType("int");
+                    b.Property<string>("CategoryId")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Description")
                         .HasColumnType("nvarchar(max)");
@@ -47,6 +49,41 @@ namespace Database_Design.Migrations
                     b.HasKey("ProductId");
 
                     b.ToTable("Products");
+                });
+
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
+                {
+                    b.Property<string>("Id")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("ConcurrencyStamp")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("NormalizedName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("IdentityRole");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = "086383b4-31ee-4f4f-9708-40ea178207b3",
+                            ConcurrencyStamp = "0c0cec5b-de21-4375-bd96-f112e75c4d2e",
+                            Name = "Visitor",
+                            NormalizedName = "VISITOR"
+                        },
+                        new
+                        {
+                            Id = "d46d27e2-66c4-42e3-a43f-c5dfafa0c2bc",
+                            ConcurrencyStamp = "b2ba864e-ba96-477e-af5f-2716ad2097b9",
+                            Name = "Administrator",
+                            NormalizedName = "ADMINISTRATOR"
+                        });
                 });
 #pragma warning restore 612, 618
         }

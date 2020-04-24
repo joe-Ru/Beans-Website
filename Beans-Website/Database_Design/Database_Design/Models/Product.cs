@@ -12,7 +12,7 @@ namespace Database_Design.Models
         public decimal ProductPrice { get; set; }
         public string ProductCreator { get; set; }
         public string Description { get; set; }
-        public  string ImageUrl { get; set; }
+        public string ImageUrl { get; set; }
         public bool IsPreferred { get; set; }
         public string CategoryId { get; set; }
         
