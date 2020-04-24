@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jack\\Downloads\\identity-aspnetcore-email-confirmation-identity\\identity-aspnetcore-email-confirmation-identity\\IdentityByExamples\\EmailService\\EmailService.csproj": {}
+    "C:\\Users\\n01394107\\Documents\\GitHub\\Beans-Website\\Database_Design\\EmailService\\EmailService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jack\\Downloads\\identity-aspnetcore-email-confirmation-identity\\identity-aspnetcore-email-confirmation-identity\\IdentityByExamples\\EmailService\\EmailService.csproj": {
+    "C:\\Users\\n01394107\\Documents\\GitHub\\Beans-Website\\Database_Design\\EmailService\\EmailService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jack\\Downloads\\identity-aspnetcore-email-confirmation-identity\\identity-aspnetcore-email-confirmation-identity\\IdentityByExamples\\EmailService\\EmailService.csproj",
+        "projectUniqueName": "C:\\Users\\n01394107\\Documents\\GitHub\\Beans-Website\\Database_Design\\EmailService\\EmailService.csproj",
         "projectName": "EmailService",
-        "projectPath": "C:\\Users\\Jack\\Downloads\\identity-aspnetcore-email-confirmation-identity\\identity-aspnetcore-email-confirmation-identity\\IdentityByExamples\\EmailService\\EmailService.csproj",
-        "packagesPath": "C:\\Users\\Jack\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jack\\Downloads\\identity-aspnetcore-email-confirmation-identity\\identity-aspnetcore-email-confirmation-identity\\IdentityByExamples\\EmailService\\obj\\",
+        "projectPath": "C:\\Users\\n01394107\\Documents\\GitHub\\Beans-Website\\Database_Design\\EmailService\\EmailService.csproj",
+        "packagesPath": "C:\\Users\\n01394107\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\n01394107\\Documents\\GitHub\\Beans-Website\\Database_Design\\EmailService\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Jack\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\n01394107\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -62,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

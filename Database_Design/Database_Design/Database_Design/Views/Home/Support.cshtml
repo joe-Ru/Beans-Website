@@ -1,0 +1,29 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <!--TODO: Create a form that connects all three pages together and populates an empty area below.
+    <form action="" method="post">
+        <label for="form">Choose which form you'd like to fill out</label>
+
+        <select id="form" name="form">
+            <option value="tech">Tech Support</option>
+            <option value="report">Report Content</option>
+            <option value="message">Message a Creator</option>
+        </select>
+        <input type="submit" value="Submit">
+    </form>
+    -->
+    <li class="nav-item">
+        <a asp-action="TechSupport" asp-controller="home">Tech Support</a>
+    </li>
+    <li class="nav-item">
+        <a asp-action="ReportContent" asp-controller="home">Report Content</a>
+    </li>
+    <li class="nav-item">
+        <a asp-action="MessageCreator" asp-controller="home">Message Creator</a>
+    </li>
+    
+    
+</div>
