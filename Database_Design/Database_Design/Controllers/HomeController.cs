@@ -43,22 +43,7 @@ namespace Database_Design.Controllers
         {
             return View();
         }
-        public IActionResult UploadFilePage()
-        {
-            return View();
-        }
-        public IActionResult UPP()
-        {
-            return View();
-        }
-        public IActionResult LoginPage()
-        {
-            return View();
-        }
-        public IActionResult ProfilePage()
-        {
-            return View();
-        }
+
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] 3D&D </title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" asp-href-include="lib/font-awesome/css/*.css" /> <!--for the cart icon-->
     <link rel="stylesheet" href="~/css/site.css" />
 </head>
 <body>
@@ -28,26 +29,41 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Support">Support</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="UploadFilePage">Upload a File</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="UPP">Update a Product</a>
-                        </li>
-                        <li class="nav-item">
-                            <!--who is in charge of making all of the items????-->
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Catalog">Catalog</a>
-                        </li>
-                        <li class="nav-item">
-                            <!--Added for John's later use, also figure out how to switch between loging and profile tabs-->
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="LoginPage">Login</a>
-                        </li>
-                        <li class="nav-item">
-                            <!--Added for John's later use, also figure out how to switch between loging and profile tabs-->
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="ProfilePage">Profile</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Product" asp-action="List">Products</a>
                         </li>
                     </ul>
+                    <!-- John please have a look here, this is to toggle the register/login/logout tab
+            <ul class="navbar-nav ml-auto">
+                *add an "at" sign here*if (signInManager.IsSignedIn(User))
+                {
+                    <li class="nav-item">
+                        <form method="post" asp-action="logout" asp-controller="account">
+                            <button type="submit" class="nav-link btn btn-link py-0" style="width:auto">
+                                Logout *add an "at" sign here*User.Identity.Name
+                            </button>
+                        </form>
+                    </li>
+                }
+                else
+                {
+                    <li class="nav-item">
+                        <a asp-action="register" asp-controller="account" class="nav-link">Register</a>
+                    </li>
+                    <li class="nav-item">
+                        <a asp-action="login" asp-controller="account" class="nav-link">Login</a>
+                    </li>
+                }
+            </ul>
+                -->
                 </div>
             </div>
+
+            <!--cart icon in top right corner, must have Views/Shared/Components/CartSummary Folder with a "default.cshtml". Also must have "CartSummaryViewComponent.cs" File in the Components folder
+            <div class="float-right">
+                *add an "at" sign here*await Component.InvokeAsync("CartSummary")
+            </div>
+            -->
+
         </nav>
     </header>
     <div class="container">
