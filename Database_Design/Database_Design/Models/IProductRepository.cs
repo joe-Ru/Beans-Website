@@ -12,5 +12,6 @@ namespace Database_Design.Models
         {
             return Products.Where(x => x.ProductId == id).FirstOrDefault();
         }
+        void SaveProduct(Product product);
     }
 }
