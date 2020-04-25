@@ -11,6 +11,13 @@ using Microsoft.Extensions.Logging;
 using Database_Design.Models;
 using Microsoft.Extensions.Configuration;
 using Microsoft.EntityFrameworkCore;
+using AutoMapper;
+using EmailService;
+using Database_Design.Factory;
+using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+
 namespace Database_Design
 {
     public class Startup
@@ -28,7 +35,35 @@ namespace Database_Design
             services.AddControllersWithViews();
             services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
             services.AddTransient<IProductRepository, EFProductRepository>();
+            services.AddScoped<Cart>(sp => SessionCart.GetCart(sp));
+            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+            services.AddTransient<IOrderRepository, EFOrderRepository>();
             services.AddMvc(options => options.EnableEndpointRouting = false).AddNewtonsoftJson(); services.AddMemoryCache(); services.AddSession();
+            services.AddIdentity<User, IdentityRole>(opt =>
+            {
+                opt.Password.RequiredLength = 7;
+                opt.Password.RequireDigit = false;
+                opt.Password.RequireUppercase = false;
+
+                opt.User.RequireUniqueEmail = true;
+            })
+             .AddEntityFrameworkStores<ApplicationDbContext>()
+             .AddDefaultTokenProviders();
+
+            services.Configure<DataProtectionTokenProviderOptions>(opt =>
+               opt.TokenLifespan = TimeSpan.FromHours(2));
+
+            services.AddScoped<IUserClaimsPrincipalFactory<User>, CustomClaimsFactory>();
+
+            services.AddAutoMapper(typeof(Startup));
+
+            var emailConfig = Configuration
+                .GetSection("EmailConfiguration")
+                .Get<EmailConfiguration>();
+            services.AddSingleton(emailConfig);
+            services.AddScoped<IEmailSender, EmailSender>();
+
+            services.AddControllersWithViews();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -49,26 +84,24 @@ namespace Database_Design
             app.UseStaticFiles();
             app.UseSession();
             app.UseRouting();
-            app.UseMvcWithDefaultRoute();
-
+            app.UseAuthentication();
             app.UseAuthorization();
 
-            /* app.UseEndpoints(endpoints =>
+             app.UseEndpoints(endpoints =>
              {
                  endpoints.MapControllerRoute(
                      name: "default",
                      pattern: "{controller=Home}/{action=Index}/{id?}");
-             });*/
-            app.UseMvc(routes =>
+             });
+            /*app.UseMvc(routes =>
             {
                 routes.MapRoute(name: null, template: "{category}/Page{page:int}", defaults: new { controller = "Product", action = "List"});
                 routes.MapRoute(name: null, template: "Page{page:int}", defaults: new { controller = "Product", action = "List", page = 1 });
-                routes.MapRoute(name: null, template: "Page{page:int}", defaults: new { controller = "UploadFile", action = "getfile", page = 2 });
                 routes.MapRoute(name: null, template: "{category}", defaults: new { controller = "Product", action = "List", page = 1 });
                 routes.MapRoute(name: null, template: "", defaults: new { controller = "Product", action = "List" , page = 1});
                 routes.MapRoute(name: null, template: "{controller}/{action}/{id?}");
                 //routes.MapRoute(name: "default", template: "{controller=Home}/{action=Index}/{id?}");
-            });
+            });*/
         }
     }
 }

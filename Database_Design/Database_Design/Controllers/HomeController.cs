@@ -18,7 +18,7 @@ namespace Database_Design.Controllers
             _logger = logger;
         }
 
-        public IActionResult MainPage()
+        public IActionResult Index()
         {
             return View();
         }
@@ -26,7 +26,7 @@ namespace Database_Design.Controllers
         {
             return View();
         }
-        public IActionResult UPP()
+        public IActionResult AboutUs()
         {
             return View();
         }
@@ -47,10 +47,6 @@ namespace Database_Design.Controllers
             return View();
         }
         public IActionResult MessageCreator()
-        {
-            return View();
-        }
-        public IActionResult Product()
         {
             return View();
         }
