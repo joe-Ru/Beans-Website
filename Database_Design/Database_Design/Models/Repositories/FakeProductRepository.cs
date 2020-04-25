@@ -6,7 +6,7 @@ using Database_Design.Models;
 
 namespace Database_Design.Models.Repositories
 {
-    public class FakeProductRepository : IProductRepository
+    public class FakeProductRepository /* : IProductRepository*/
     {
         public IEnumerable<Product> Products => new List<Product>
         {

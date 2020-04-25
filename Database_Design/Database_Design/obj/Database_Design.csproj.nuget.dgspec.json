@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\n01394107\\Downloads\\Beans-Website-John (1)\\Beans-Website-John\\Beans-Website-Trey-2-\\Database_Design\\Database_Design\\Database_Design.csproj": {}
+    "C:\\Users\\n01394107\\Downloads\\Beans-Website-Trey-2-\\Beans-Website-Trey-2-\\Database_Design\\Database_Design\\Database_Design.csproj": {}
   },
   "projects": {
-    "C:\\Users\\n01394107\\Downloads\\Beans-Website-John (1)\\Beans-Website-John\\Beans-Website-Trey-2-\\Database_Design\\Database_Design\\Database_Design.csproj": {
+    "C:\\Users\\n01394107\\Downloads\\Beans-Website-Trey-2-\\Beans-Website-Trey-2-\\Database_Design\\Database_Design\\Database_Design.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\n01394107\\Downloads\\Beans-Website-John (1)\\Beans-Website-John\\Beans-Website-Trey-2-\\Database_Design\\Database_Design\\Database_Design.csproj",
+        "projectUniqueName": "C:\\Users\\n01394107\\Downloads\\Beans-Website-Trey-2-\\Beans-Website-Trey-2-\\Database_Design\\Database_Design\\Database_Design.csproj",
         "projectName": "Database_Design",
-        "projectPath": "C:\\Users\\n01394107\\Downloads\\Beans-Website-John (1)\\Beans-Website-John\\Beans-Website-Trey-2-\\Database_Design\\Database_Design\\Database_Design.csproj",
+        "projectPath": "C:\\Users\\n01394107\\Downloads\\Beans-Website-Trey-2-\\Beans-Website-Trey-2-\\Database_Design\\Database_Design\\Database_Design.csproj",
         "packagesPath": "C:\\Users\\n01394107\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\n01394107\\Downloads\\Beans-Website-John (1)\\Beans-Website-John\\Beans-Website-Trey-2-\\Database_Design\\Database_Design\\obj\\",
+        "outputPath": "C:\\Users\\n01394107\\Downloads\\Beans-Website-Trey-2-\\Beans-Website-Trey-2-\\Database_Design\\Database_Design\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -30,8 +30,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\n01394107\\Downloads\\Beans-Website-John (1)\\Beans-Website-John\\Beans-Website-Trey-2-\\Database_Design\\EmailService\\EmailService.csproj": {
-                "projectPath": "C:\\Users\\n01394107\\Downloads\\Beans-Website-John (1)\\Beans-Website-John\\Beans-Website-Trey-2-\\Database_Design\\EmailService\\EmailService.csproj"
+              "C:\\Users\\n01394107\\Downloads\\Beans-Website-Trey-2-\\Beans-Website-Trey-2-\\Database_Design\\EmailService\\EmailService.csproj": {
+                "projectPath": "C:\\Users\\n01394107\\Downloads\\Beans-Website-Trey-2-\\Beans-Website-Trey-2-\\Database_Design\\EmailService\\EmailService.csproj"
               }
             }
           }
@@ -128,14 +128,14 @@
         }
       }
     },
-    "C:\\Users\\n01394107\\Downloads\\Beans-Website-John (1)\\Beans-Website-John\\Beans-Website-Trey-2-\\Database_Design\\EmailService\\EmailService.csproj": {
+    "C:\\Users\\n01394107\\Downloads\\Beans-Website-Trey-2-\\Beans-Website-Trey-2-\\Database_Design\\EmailService\\EmailService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\n01394107\\Downloads\\Beans-Website-John (1)\\Beans-Website-John\\Beans-Website-Trey-2-\\Database_Design\\EmailService\\EmailService.csproj",
+        "projectUniqueName": "C:\\Users\\n01394107\\Downloads\\Beans-Website-Trey-2-\\Beans-Website-Trey-2-\\Database_Design\\EmailService\\EmailService.csproj",
         "projectName": "EmailService",
-        "projectPath": "C:\\Users\\n01394107\\Downloads\\Beans-Website-John (1)\\Beans-Website-John\\Beans-Website-Trey-2-\\Database_Design\\EmailService\\EmailService.csproj",
+        "projectPath": "C:\\Users\\n01394107\\Downloads\\Beans-Website-Trey-2-\\Beans-Website-Trey-2-\\Database_Design\\EmailService\\EmailService.csproj",
         "packagesPath": "C:\\Users\\n01394107\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\n01394107\\Downloads\\Beans-Website-John (1)\\Beans-Website-John\\Beans-Website-Trey-2-\\Database_Design\\EmailService\\obj\\",
+        "outputPath": "C:\\Users\\n01394107\\Downloads\\Beans-Website-Trey-2-\\Beans-Website-Trey-2-\\Database_Design\\EmailService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

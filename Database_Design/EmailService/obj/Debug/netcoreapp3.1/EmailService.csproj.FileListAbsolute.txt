@@ -24,3 +24,30 @@ C:\Users\n01394107\Downloads\Beans-Website-John (1)\Beans-Website-John\Beans-Web
 C:\Users\n01394107\Downloads\Beans-Website-John (1)\Beans-Website-John\Beans-Website-Trey-2-\Database_Design\EmailService\obj\Debug\netcoreapp3.1\EmailService.AssemblyInfo.cs
 C:\Users\n01394107\Downloads\Beans-Website-John (1)\Beans-Website-John\Beans-Website-Trey-2-\Database_Design\EmailService\obj\Debug\netcoreapp3.1\EmailService.dll
 C:\Users\n01394107\Downloads\Beans-Website-John (1)\Beans-Website-John\Beans-Website-Trey-2-\Database_Design\EmailService\obj\Debug\netcoreapp3.1\EmailService.pdb
+C:\Users\n01397096\Downloads\Combining\Beans-Website-John\Database_Design\EmailService\bin\Debug\netcoreapp3.1\EmailService.deps.json
+C:\Users\n01397096\Downloads\Combining\Beans-Website-John\Database_Design\EmailService\bin\Debug\netcoreapp3.1\EmailService.dll
+C:\Users\n01397096\Downloads\Combining\Beans-Website-John\Database_Design\EmailService\bin\Debug\netcoreapp3.1\EmailService.pdb
+C:\Users\n01397096\Downloads\Combining\Beans-Website-John\Database_Design\EmailService\obj\Debug\netcoreapp3.1\EmailService.csprojAssemblyReference.cache
+C:\Users\n01397096\Downloads\Combining\Beans-Website-John\Database_Design\EmailService\obj\Debug\netcoreapp3.1\EmailService.csproj.CoreCompileInputs.cache
+C:\Users\n01397096\Downloads\Combining\Beans-Website-John\Database_Design\EmailService\obj\Debug\netcoreapp3.1\EmailService.AssemblyInfoInputs.cache
+C:\Users\n01397096\Downloads\Combining\Beans-Website-John\Database_Design\EmailService\obj\Debug\netcoreapp3.1\EmailService.AssemblyInfo.cs
+C:\Users\n01397096\Downloads\Combining\Beans-Website-John\Database_Design\EmailService\obj\Debug\netcoreapp3.1\EmailService.dll
+C:\Users\n01397096\Downloads\Combining\Beans-Website-John\Database_Design\EmailService\obj\Debug\netcoreapp3.1\EmailService.pdb
+C:\Users\n01397096\Documents\GitHub\Beans-Website\Database_Design\EmailService\bin\Debug\netcoreapp3.1\EmailService.deps.json
+C:\Users\n01397096\Documents\GitHub\Beans-Website\Database_Design\EmailService\bin\Debug\netcoreapp3.1\EmailService.dll
+C:\Users\n01397096\Documents\GitHub\Beans-Website\Database_Design\EmailService\bin\Debug\netcoreapp3.1\EmailService.pdb
+C:\Users\n01397096\Documents\GitHub\Beans-Website\Database_Design\EmailService\obj\Debug\netcoreapp3.1\EmailService.csprojAssemblyReference.cache
+C:\Users\n01397096\Documents\GitHub\Beans-Website\Database_Design\EmailService\obj\Debug\netcoreapp3.1\EmailService.csproj.CoreCompileInputs.cache
+C:\Users\n01397096\Documents\GitHub\Beans-Website\Database_Design\EmailService\obj\Debug\netcoreapp3.1\EmailService.AssemblyInfoInputs.cache
+C:\Users\n01397096\Documents\GitHub\Beans-Website\Database_Design\EmailService\obj\Debug\netcoreapp3.1\EmailService.AssemblyInfo.cs
+C:\Users\n01397096\Documents\GitHub\Beans-Website\Database_Design\EmailService\obj\Debug\netcoreapp3.1\EmailService.dll
+C:\Users\n01397096\Documents\GitHub\Beans-Website\Database_Design\EmailService\obj\Debug\netcoreapp3.1\EmailService.pdb
+C:\Users\n01394107\Downloads\Beans-Website-Trey-2-\Beans-Website-Trey-2-\Database_Design\EmailService\bin\Debug\netcoreapp3.1\EmailService.deps.json
+C:\Users\n01394107\Downloads\Beans-Website-Trey-2-\Beans-Website-Trey-2-\Database_Design\EmailService\bin\Debug\netcoreapp3.1\EmailService.dll
+C:\Users\n01394107\Downloads\Beans-Website-Trey-2-\Beans-Website-Trey-2-\Database_Design\EmailService\bin\Debug\netcoreapp3.1\EmailService.pdb
+C:\Users\n01394107\Downloads\Beans-Website-Trey-2-\Beans-Website-Trey-2-\Database_Design\EmailService\obj\Debug\netcoreapp3.1\EmailService.csprojAssemblyReference.cache
+C:\Users\n01394107\Downloads\Beans-Website-Trey-2-\Beans-Website-Trey-2-\Database_Design\EmailService\obj\Debug\netcoreapp3.1\EmailService.csproj.CoreCompileInputs.cache
+C:\Users\n01394107\Downloads\Beans-Website-Trey-2-\Beans-Website-Trey-2-\Database_Design\EmailService\obj\Debug\netcoreapp3.1\EmailService.AssemblyInfoInputs.cache
+C:\Users\n01394107\Downloads\Beans-Website-Trey-2-\Beans-Website-Trey-2-\Database_Design\EmailService\obj\Debug\netcoreapp3.1\EmailService.AssemblyInfo.cs
+C:\Users\n01394107\Downloads\Beans-Website-Trey-2-\Beans-Website-Trey-2-\Database_Design\EmailService\obj\Debug\netcoreapp3.1\EmailService.dll
+C:\Users\n01394107\Downloads\Beans-Website-Trey-2-\Beans-Website-Trey-2-\Database_Design\EmailService\obj\Debug\netcoreapp3.1\EmailService.pdb

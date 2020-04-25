@@ -9,6 +9,7 @@ using System;
 using System.Collections.Generic;
 using System.Security.Claims;
 using System.Threading.Tasks;
+using System.Linq;
 
 namespace Database_Design.Controllers
 {
@@ -18,20 +19,37 @@ namespace Database_Design.Controllers
         private readonly UserManager<User> _userManager;
         private readonly SignInManager<User> _signInManager;
         private readonly IEmailSender _emailSender;
+        private IProductRepository repository;
 
-        public AccountController(IMapper mapper, UserManager<User> userManager, SignInManager<User> signInManager, IEmailSender emailSender)
+
+        
+       
+
+
+
+        public AccountController(IMapper mapper, UserManager<User> userManager, SignInManager<User> signInManager, IEmailSender emailSender, IProductRepository repo)
         {
             _mapper = mapper;
             _userManager = userManager;
             _signInManager = signInManager;
             _emailSender = emailSender;
+            repository = repo;
         }
+        public ViewResult Index() => View(repository.Products);
 
         [HttpGet]
         public IActionResult Register()
         {
             return View();
         }
+        public ViewResult Edit(int productId) => View(repository.Products.FirstOrDefault(p => p.ProductId == productId));
+        [HttpPost]
+        public IActionResult Edit(Product product)
+        {
+            if (ModelState.IsValid) { repository.SaveProduct(product); TempData["message"] = $"{product.ProductName} has been saved"; return RedirectToAction("Index"); }
+            else
+            {                 // there is something wrong with the data values        
+                return View(product);             }         }
 
         [HttpPost]
         [ValidateAntiForgeryToken]

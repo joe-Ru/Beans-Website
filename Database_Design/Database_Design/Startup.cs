@@ -35,6 +35,9 @@ namespace Database_Design
             services.AddControllersWithViews();
             services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
             services.AddTransient<IProductRepository, EFProductRepository>();
+            services.AddScoped<Cart>(sp => SessionCart.GetCart(sp));
+            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+            services.AddTransient<IOrderRepository, EFOrderRepository>();
             services.AddMvc(options => options.EnableEndpointRouting = false).AddNewtonsoftJson(); services.AddMemoryCache(); services.AddSession();
             services.AddIdentity<User, IdentityRole>(opt =>
             {
