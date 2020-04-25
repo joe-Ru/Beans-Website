@@ -26,7 +26,10 @@ namespace Database_Design.Controllers
         {
             return View();
         }
-
+        public IActionResult UPP()
+        {
+            return View();
+        }
         public IActionResult Privacy()
         {
             return View();
@@ -44,6 +47,10 @@ namespace Database_Design.Controllers
             return View();
         }
         public IActionResult MessageCreator()
+        {
+            return View();
+        }
+        public IActionResult Product()
         {
             return View();
         }

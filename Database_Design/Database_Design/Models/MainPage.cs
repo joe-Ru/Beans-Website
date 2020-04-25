@@ -9,11 +9,3 @@ namespace Database_Design.Models
     {
     }
 }
-/*
-    MainPage
-        cart icon
-        login/profile tab
-        tech support tab
-        main catalog tab(ProductSearch)
-        display highlighted products
-*/

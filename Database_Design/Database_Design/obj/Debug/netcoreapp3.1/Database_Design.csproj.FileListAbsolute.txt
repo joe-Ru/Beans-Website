@@ -621,3 +621,4 @@ C:\Users\n00828431\Downloads\Beans-Website-master (1)\Beans-Website-master\Datab
 C:\Users\n00828431\Downloads\Beans-Website-master (1)\Beans-Website-master\Database_Design\Database_Design\obj\Debug\netcoreapp3.1\Database_Design.csproj.CoreCompileInputs.cache
 C:\Users\n00828431\Downloads\Beans-Website-master (1)\Beans-Website-master\Database_Design\Database_Design\obj\Debug\netcoreapp3.1\Database_Design.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\n00828431\Downloads\Beans-Website-master (1)\Beans-Website-master\Database_Design\Database_Design\obj\Debug\netcoreapp3.1\Razor\Views\Home\UploadFile.cshtml.g.cs
+C:\Users\n00828431\Downloads\Beans-Website-master (1)\Beans-Website-master\Database_Design\Database_Design\obj\Debug\netcoreapp3.1\Razor\Views\Home\UploadFile - Copy.cshtml.g.cs

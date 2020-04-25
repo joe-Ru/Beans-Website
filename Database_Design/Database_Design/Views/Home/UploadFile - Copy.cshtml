@@ -3,9 +3,22 @@
 @{
     ViewData["Title"] = "UploadFilePage";
 }
-    <h3><b>Please enter your information below.</b></h3>
+
+<h1>Upload File Page</h1>
+
+<h4>UploadFilePage</h4>
+<hr />
+
+
+
+
     <form enctype="multipart/form-data" asp-controller="Home" asp-action="UploadFile" method="post">
         <div>
+            <!--label asp-for="ProductImage"></!--label>
+            <div>
+                <input asp-for="ProductImage" class="form-control" >
+            </div>
+            <label asp-for="ProductName"></label-->
             <div class="form-group row">
                 <div class="custom-file">
                     <input asp-controller="UploadFile" name="ImageUrl" asp-for="ImageUrl" class="form-control custom-file-input">
@@ -27,4 +40,9 @@
         </div>
         <button type="submit">Submit</button>
     </form>
+
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
 
