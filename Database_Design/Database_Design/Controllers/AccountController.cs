@@ -140,7 +140,7 @@ namespace Database_Design.Controllers
             var token = await _userManager.GeneratePasswordResetTokenAsync(user);
             var callback = Url.Action(nameof(ResetPassword), nameof(AccountController), new { token, email = user.Email }, Request.Scheme);
 
-            var message = new Message(new string[] { "lowery.jack20@gmail.com" }, "Reset password token", callback, null);
+            var message = new Message(new string[] { "3dndemailsender@gmail.com" }, "Reset password token", callback, null);
             await _emailSender.SendEmailAsync(message);
 
             return RedirectToAction(nameof(ForgotPasswordConfirmation));

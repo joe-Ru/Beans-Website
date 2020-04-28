@@ -46,7 +46,10 @@ namespace Database_Design.Controllers
         {
             return View();
         }
-
+        public IActionResult UploadFile()
+        {
+            return View();
+        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

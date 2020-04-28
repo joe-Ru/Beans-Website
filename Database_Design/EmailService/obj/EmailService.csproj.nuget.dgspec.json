@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\n01394107\\Documents\\GitHub\\Beans-Website\\Database_Design\\EmailService\\EmailService.csproj": {}
+    "C:\\Users\\n01394107\\Downloads\\Beans-Website-Trey-2- (1)\\Beans-Website-Trey-2-\\Database_Design\\EmailService\\EmailService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\n01394107\\Documents\\GitHub\\Beans-Website\\Database_Design\\EmailService\\EmailService.csproj": {
+    "C:\\Users\\n01394107\\Downloads\\Beans-Website-Trey-2- (1)\\Beans-Website-Trey-2-\\Database_Design\\EmailService\\EmailService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\n01394107\\Documents\\GitHub\\Beans-Website\\Database_Design\\EmailService\\EmailService.csproj",
+        "projectUniqueName": "C:\\Users\\n01394107\\Downloads\\Beans-Website-Trey-2- (1)\\Beans-Website-Trey-2-\\Database_Design\\EmailService\\EmailService.csproj",
         "projectName": "EmailService",
-        "projectPath": "C:\\Users\\n01394107\\Documents\\GitHub\\Beans-Website\\Database_Design\\EmailService\\EmailService.csproj",
+        "projectPath": "C:\\Users\\n01394107\\Downloads\\Beans-Website-Trey-2- (1)\\Beans-Website-Trey-2-\\Database_Design\\EmailService\\EmailService.csproj",
         "packagesPath": "C:\\Users\\n01394107\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\n01394107\\Documents\\GitHub\\Beans-Website\\Database_Design\\EmailService\\obj\\",
+        "outputPath": "C:\\Users\\n01394107\\Downloads\\Beans-Website-Trey-2- (1)\\Beans-Website-Trey-2-\\Database_Design\\EmailService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

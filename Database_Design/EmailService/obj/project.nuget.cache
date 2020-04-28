@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bSUzU7Bc+f+SQiF/eCskvwpNNHphq9/nspIrSPxpodSNc1Ag3S2A4HanEDXeONLUud1M3YF6hSZywDrFjlK7gg==",
+  "dgSpecHash": "bhmbAMa6Rr+cZ1h5fhk5ArWUEVKW2eloTSpS7cglmMF/gssHkewDT12iXGmcpcI0FaU0m+vnjWoZ4u+NfZQd3g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\n01394107\\Documents\\GitHub\\Beans-Website\\Database_Design\\EmailService\\EmailService.csproj",
+  "projectFilePath": "C:\\Users\\n01394107\\Downloads\\Beans-Website-Trey-2- (1)\\Beans-Website-Trey-2-\\Database_Design\\EmailService\\EmailService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\n01394107\\.nuget\\packages\\mailkit\\2.0.1\\mailkit.2.0.1.nupkg.sha512",
     "C:\\Users\\n01394107\\.nuget\\packages\\microsoft.aspnetcore.http.features\\3.1.0\\microsoft.aspnetcore.http.features.3.1.0.nupkg.sha512",
