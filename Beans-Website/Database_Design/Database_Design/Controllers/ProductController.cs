@@ -28,11 +28,14 @@ namespace Database_Design.Controllers
             },
             CurrentCategory = category
         });
-
+        
         public ViewResult Details(int productId)
         {
-            Product product = repository.Products.FirstOrDefault(p => p.ProductId == productId);
-            return View(product);
+            ViewBag.productId = productId;
+            //Product product = repository.Products.FirstOrDefault(p => p.ProductId == productId);
+            //ViewBag.productId = product.ProductId;
+            //return View(product);
+            return View(repository.Products.FirstOrDefault(p => p.ProductId == productId));
 
         }
     }

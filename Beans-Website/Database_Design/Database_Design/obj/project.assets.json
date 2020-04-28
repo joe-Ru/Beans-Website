@@ -9727,23 +9727,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\n01397096\\.nuget\\packages\\": {},
+    "C:\\Users\\n01394107\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\n01397096\\Documents\\GitHub\\Beans-Website\\Database_Design\\Database_Design\\Database_Design.csproj",
+      "projectUniqueName": "C:\\Users\\n01394107\\Documents\\GitHub\\Beans-Website\\Database_Design\\Database_Design\\Database_Design.csproj",
       "projectName": "Database_Design",
-      "projectPath": "C:\\Users\\n01397096\\Documents\\GitHub\\Beans-Website\\Database_Design\\Database_Design\\Database_Design.csproj",
-      "packagesPath": "C:\\Users\\n01397096\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\n01397096\\Documents\\GitHub\\Beans-Website\\Database_Design\\Database_Design\\obj\\",
+      "projectPath": "C:\\Users\\n01394107\\Documents\\GitHub\\Beans-Website\\Database_Design\\Database_Design\\Database_Design.csproj",
+      "packagesPath": "C:\\Users\\n01394107\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\n01394107\\Documents\\GitHub\\Beans-Website\\Database_Design\\Database_Design\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\n01397096\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\n01394107\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -9756,8 +9756,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\n01397096\\Documents\\GitHub\\Beans-Website\\Database_Design\\EmailService\\EmailService.csproj": {
-              "projectPath": "C:\\Users\\n01397096\\Documents\\GitHub\\Beans-Website\\Database_Design\\EmailService\\EmailService.csproj"
+            "C:\\Users\\n01394107\\Documents\\GitHub\\Beans-Website\\Database_Design\\EmailService\\EmailService.csproj": {
+              "projectPath": "C:\\Users\\n01394107\\Documents\\GitHub\\Beans-Website\\Database_Design\\EmailService\\EmailService.csproj"
             }
           }
         }
