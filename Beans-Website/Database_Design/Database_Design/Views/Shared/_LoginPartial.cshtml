@@ -6,6 +6,11 @@
 		@if (SignInManager.IsSignedIn(User))
 		{
 			<li class="nav-item">
+				<form class="form-inline" asp-area="" asp-controller="Home" asp-action="UploadFile">
+					<button type="submit" class="nav-link btn btn-link text-info">Upload File</button>
+				</form>
+			</li>
+			<li class="nav-item">
 				<form class="form-inline" asp-controller="Account" asp-action="Index">
 					<button type="submit" class="nav-link btn btn-link text-info">Edit an Item</button>
 				</form>
@@ -16,8 +21,8 @@
 				</form>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link text-dark" asp-controller="Home" asp-action="Index"
-				   title="Welcome">Welcome @User.Identity.Name!</a>
+				<form class="nav-link text-dark" asp-controller="Home" asp-action="Index"
+				   title="Welcome">Welcome @User.Identity.Name!</form>
 			</li>
 			<li class="nav-item">
 				<form class="form-inline" asp-controller="Account" asp-action="Logout">
